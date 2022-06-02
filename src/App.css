@@ -1,0 +1,252 @@
+.userInput{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userInput img{
+  height: 18rem;
+}
+
+.userInputDetail{
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;  
+  border-radius: 50%;
+  height: 16.5rem;
+  background-image: url('https://w7.pngwing.com/pngs/464/515/png-transparent-technology-brand-circle-pokeball-electronics-ball-fantasy.png');
+  background-position: center;
+  background-size:32rem;
+  background-repeat: no-repeat;
+}
+
+.userInput h2{
+  text-align: center;  
+  padding: 1.25rem;  
+}
+
+.userInput b{
+  color: aliceblue;
+  text-align: center;
+  padding: 0px .5rem;
+  font-size: 1rem;  
+}
+
+.userInput input{
+  text-align: center;
+  color: red;
+  position: relative; 
+  top: 2rem;
+  height: 1.75rem;
+  width: fit-content;
+  left: 3.25rem;
+  border-radius: 2rem;
+  background-color: rgb(190, 187, 187);
+  
+}
+
+.userInput button {
+  height: 3.75rem;
+  width: 3.75rem;
+  border-radius: 50%;
+  position: relative;
+  top: -.34rem;
+  right: .05rem;  
+  z-index: 3;
+  cursor: pointer;
+  color: rgb(255, 196, 0);
+  font-weight: bolder;
+  background-color: rgb(85, 77, 77);
+  
+}
+
+.userInput button:hover{
+  background-color: green;
+  color: rgb(96, 57, 20);
+}
+
+.pokemons{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;    
+  text-align: center;
+  padding-top: 9rem;
+  background-image: url(https://www.megaidea.net/wp-content/uploads/2021/08/Pokemon30.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  
+}
+
+.pokemons h1{
+  color: rgb(218, 28, 28);
+  position: absolute;
+  padding-left: 1rem;
+  top: -1.25rem;
+}
+
+.pokemons h3{
+  text-transform: capitalize;
+  color: rgb(11, 179, 33);
+  position: relative;  
+}
+
+.pokemons select{
+  background-color: black;
+  color: wheat;
+  width: 50%;
+  position: relative;
+  left: 5.5rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.pokemons option{
+  background-color:rgb(144, 89, 17);
+  color: wheat;  
+  font-size: 1rem;
+}
+
+.pokemons input{
+  height: 2rem;
+  border-radius: 1rem;
+  font-size: 1rem;
+  color: red;
+}
+
+.pokemons button{
+  height: 3rem;
+  border-radius: 50%;
+  margin-left: 1rem;
+  background-color: rgb(214, 129, 10);
+  color: rgb(15, 63, 222);
+}
+
+
+.pokemonCard{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 1rem;
+  background-color: rgb(166, 197, 229);
+  width: 50%;
+  border-radius: 1rem;
+  box-shadow: 2px 3px 8px 0.3px;
+  border: 1px solid rgb(57, 57, 17);
+  text-transform: capitalize;
+  width: 80%;
+}
+
+.pokemonCardName{
+  background-color: rgba(195, 3, 3, 0.8);
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  color: rgb(202, 167, 10);
+}
+
+.pokedex{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: antiquewhite;
+}
+
+.pagination{
+  list-style: none;
+  display: flex;
+  gap: .5rem;  
+}
+
+.pagination a{
+  text-decoration: none;
+  background-color: green;
+  font-size: 1.5rem;
+  color: aliceblue;
+  cursor: pointer;
+  border: 2px solid gray;   
+}
+
+
+.pokemonDetailAll{
+  height: 40rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://w7.pngwing.com/pngs/184/747/png-transparent-pokemon-go-pokemon-sun-and-moon-pokemon-trading-card-game-pokemon-go-blue-text-logo-thumbnail.png);
+  background-repeat: no-repeat;
+  background-size: contain;  
+  
+  color: rgb(28, 126, 213);
+  text-align: center;
+}
+
+.pokemonDetail{
+  display: flex;  
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 17rem;
+  width: 22rem;
+  background-color: aquamarine;
+  margin-top: 3rem;
+}
+
+.back{
+  height: 4rem;
+  background-color: yellow;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: 3rem;
+  left:-9rem;
+  border: 1px solid blue;
+  width: 3rem;
+  height: 3rem;
+}
+
+.back a{
+    text-decoration: none;       
+       
+}
+
+.pokemonDetail h2{
+  text-transform: uppercase; 
+}
+
+.pokemonDetail p{
+  background-color: rgb(240, 237, 243);
+  width: 7rem;
+}
+
+.pokemonDetailImg{
+  height: 17rem;
+  position: relative;
+  right: -4rem;
+}
+
+.pokemonDetailDiv{
+  position: absolute;
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 75%;
+  width: 58%;
+  right: 7rem;
+  bottom: 3.25rem;
+}
+
+.pokemonDetailDivBotton{
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: -1rem;
+}
+
+.pokemonImg{
+  height: 10rem;
+}
+
