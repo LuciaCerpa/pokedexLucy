@@ -12,7 +12,7 @@ const PokemonDetail = () => {
         axios.get(`https://pokeapi.co/api/v2/pokemon/${id}/`)
         .then(res=>setPokemon(res.data))
     },[])
-console.log("esto tiene pokemon" + pokemon.abilities?.[0].ability.name)
+    
     return (
         <div className='pokemonDetailAll'>
                        
@@ -38,7 +38,7 @@ console.log("esto tiene pokemon" + pokemon.abilities?.[0].ability.name)
                 
             </div>
             <div className='back'>
-                <h2 ><a href="/#/pokedex"><i className='uil-left-arrow-to-left'></i></a></h2>  
+                <h2 ><a href="#/pokedex/"><i className='uil-left-arrow-to-left'></i></a></h2>  
             </div>       
         </div>
     );

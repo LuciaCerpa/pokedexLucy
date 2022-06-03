@@ -125,28 +125,34 @@
 .pokemonCard{
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   margin: 1rem;
-  background-color: rgb(166, 197, 229);
-  width: 50%;
+  background-color: rgb(166, 197, 229);  
   border-radius: 1rem;
   box-shadow: 2px 3px 8px 0.3px;
   border: 1px solid rgb(57, 57, 17);
   text-transform: capitalize;
-  width: 80%;
+  width: 50%;
 }
 
 .pokemonCardName{
-  background-color: rgba(195, 3, 3, 0.8);
+  background-color: rgba(195, 3, 3, 0.8);  
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
   color: rgb(202, 167, 10);
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  padding: 0px .5rem;
 }
 
 .pokedex{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;  
+  justify-content: center;
+  align-items:center;
 }
 
 .pagination{

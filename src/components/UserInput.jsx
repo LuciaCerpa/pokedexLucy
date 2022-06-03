@@ -12,7 +12,7 @@ const UserInput = () => {
     const dispatch = useDispatch();
 
     const getName = () =>{
-        console.log(userName)
+        
         dispatch(changeUser(userName));
         navigate("/pokedex")
     }

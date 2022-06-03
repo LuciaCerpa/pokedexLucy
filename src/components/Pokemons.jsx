@@ -42,9 +42,6 @@ const Pokemons = () => {
 
     const currentPokemons = pokemons.slice(indexOfFirstPokemon, indexOfLastPokemon)
 
-console.log(pokemons)
-console.log("esto es types: " + types[0]?.url)
-
 const paginate = (pageNumber) => setCurrentPage(pageNumber)
 
     return (
@@ -55,7 +52,7 @@ const paginate = (pageNumber) => setCurrentPage(pageNumber)
             <select onChange={filterPokemons}><option value="1">Types</option>
             {
                 types.map(type =>(
-                    <option value={type.url}>{type.name}</option>
+                    <option value={type.url} key={type.id}>{type.name}</option>
                 ))
 
             }
